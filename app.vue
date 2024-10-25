@@ -1,6 +1,8 @@
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
 const title: Ref<string> = ref('Hellow world');
 </script>
+
 <template>
   <div class="hello">
     <p>{{ title }}</p>
